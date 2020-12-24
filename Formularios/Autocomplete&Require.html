@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <!-- el atributo AUTOCOMPLETE, permite autocompletar con datos que se 
+        enviaron en otros formularios -->
+
+        <!-- el atributo REQUIRED, señala cuales de los campos son obligatorios -->
+        <form action="">
+            <label for="nombre">
+                <span>Cual es tu nombre</span>
+                <input type="text" name="nombre" id="nombre" autocomplete="name" required>
+            </label>
+
+            <label for="correo">
+                <span>Cual es tu correo</span>
+                <!-- El tipo email, solicitara que tenga un @ -->
+                <input type="email" name="correo" id="correo" autocomplete="email" required>
+            </label> 
+
+            <label for="pais">
+                <span>De donde eres</span>
+                <input type="text" name="pais" id="pais" autocomplete="country-name" required>
+            </label>
+
+            <label for="cp">
+                <span>Codigo postal</span>
+                <input type="text" name="cp" id="cp" autocomplete="postal-code">
+            </label>
+
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>
