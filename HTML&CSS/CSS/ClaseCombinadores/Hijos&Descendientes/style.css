@@ -1,0 +1,16 @@
+/* Padre de una etiqueta parrafo */
+div > p{
+    color: chartreuse;
+}
+
+article > p {
+    color: blue;
+}
+
+section > div{
+    background-color: black;
+}
+
+div article{
+    background-color: rgb(0, 255, 0);
+}

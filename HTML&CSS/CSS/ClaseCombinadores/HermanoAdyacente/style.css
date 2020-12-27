@@ -1,0 +1,7 @@
+/* Color en rojo de todas las etiquetas p cercanas a un h2 */
+h2 + p{
+    color: red;
+}
+h3 + p{
+    color: blue;
+}

@@ -1,0 +1,4 @@
+/* Aplica el estilo desde que exista la etiqueta*/
+h2 ~ p{
+    color: blue;
+}
