@@ -3,11 +3,8 @@
     padding: 0;
     margin: 0; 
 }
-html{
-
-}
 main{
-    /* El main toma el 100 de height y width 
+    /* El main toma el 100 de heigh y width 
     view width, view height*/
     width: 100vw;
     height: 100vh;
