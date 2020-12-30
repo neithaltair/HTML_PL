@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: black;
+    
+}
+.parent{
+    border: 2px white dotted;
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box {
+    display: inline-block;
+    background-color:chartreuse;
+    width: 100px;
+    min-height: 100px;
+}
+
+#two{
+    background-color: rgb(0, 0, 255);
+    position: absolute;
+    top: 20px;
+}
