@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+html{
+
+}
+main{
+    /* El main toma el 100 de height y width 
+    view width, view height*/
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+section{
+    width: 80%;
+    /*  */
+    min-width: 320px;
+    max-width: 500px;
+    /* La altura minima que vas a tener sera de: 500px
+    pero si el contenido crece, ira "creciendo con el"*/
+    min-height: 500px;
+    background-color: chartreuse; 
+    margin: 0 auto;
+}
