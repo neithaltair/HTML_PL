@@ -27,7 +27,6 @@ body{
 
 .box1{
     background-color: blue;
-    flex-grow: ;
     /* Se pueden variar las posiciones con order */
     /* order: 6; */
 }
