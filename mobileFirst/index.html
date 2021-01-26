@@ -1,29 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- HEADER -->
     <header>
         <img src="./assets/img/logo.svg" alt="">
         <div class="header--title--container">
             <h1>La próxima revolucion en intercambio de criptomonedas</h1>
             <p>Batatabit te ayuda a navegar entre los diferents precios y tendencias</p>
-            <a href="" class="header--button">Conoce nuestros planes <span></span> </a>
+            <a href="#plans" class="header--button">Conoce nuestros planes <span></span> </a>
         </div>
     </header>
-    
+
     <main>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="main-exchange-container">
+            <!-- se utiliza el siguiente div para aplicar el fondo de bitcoins -->
+            <div class="backgroundImg"></div>
+            <div class="main-exchange-container--title">
+                <h2>Visibilisamos todas las tasas de cambio.</h2>
+                <p>
+                    Traemos informacion en tiempo real de las casas de cambio y las monedas mas importantes del mundo
+                </p>
+            </div>
+
+            <!-- TABLAS -->
+            <section class="main-tables-container">
+                <div class="main-currency-table">
+                    <p class="currency-table--title">Monedas</p>
+                    <!-- Div donde van la tabla -->
+                    <div class="currency-table--container">
+                        <table>
+                            <tr>
+                                <td class="table__top-left">Bitcoin</td>
+                                <!-- genera dos clases para identificar las que tendran
+                                la puntas con radius y para identificar todas las de la derecha -->
+                                <td class="table__top-right table__right">$1.96 <span class="down"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Ethereum</td>
+                                <td class="table__right">$0.07 <span class="up"></span></td>
+                            </tr>
+                            <tr>
+                                <td>Ripple</td>
+                                <td class="table__right">$2.17 <span class="down"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom-left">Stellar</td>
+                                <td class="table__bottom-right table__right">$4.96 <span class="down"></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="currency-table--date">
+                        <p><b> Actualizado: 09 de Agosto 00:05</b> </p>
+                    </div>
+                </div>
+
+
+                <div class="main-comision-table">
+                    <p class="comision-table--title">Comisiones</p>
+                    <!-- Div donde van la tabla -->
+                    <div class="comision-table--container">
+                        <table>
+                            <tr>
+                                <td class="table__top-left">Bitrade</td>
+                                <!-- genera dos clases para identificar las que tendran
+                                la puntas con radius y para identificar todas las de la derecha -->
+                                <td class="table__top-right table__right">$12.96</span></td>
+                            </tr>
+                            <tr>
+                                <td>Bitpreco</td>
+                                <td class="table__right">$0.07</td>
+                            </tr>
+                            <tr>
+                                <td>Novadaz</td>
+                                <td class="table__right">$2.17</span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__bottom-left">Cointext</td>
+                                <td class="table__bottom-right table__right">$4.96</span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="comision-table--date">
+                        <p><b> Actualizado: 09 de Agosto 00:05</b> </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="main-product-detail">
+            <span class="product-detail--batata-logo"></span>
+            <!-- Con esta clase se le puede agregar estilos a h2 y p +
+            sin necesidad de darles clases a ellos-->
+            <div class="product-detail--title">
+                <h2>Creamos un producto sin comparación</h2>
+                <p>Confiable y diseñado para su uso diario</p>
+            </div>
+
+            <!-- TIEMPOR REAL -->
+            <section class="product-cards--container">
+                <article class="product-detail--card">
+                    <span class="clock"></span>
+                    <p class="product--card-title">Tiempo real</p>
+                    <p class="product--card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                        nulla inventore libero doloremque quis rem soluta debitis quidem?</p>
+                </article>
+            </section>
+
+            <!-- NO HAY TASAS ESCONDIDAS -->
+            <section class="product-cards--container">
+                <article class="product-detail--card">
+                    <span class="eye"></span>
+                    <p class="product--card-title">No hay tasas escondidas</p>
+                    <p class="product--card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                        nulla inventore libero doloremque quis rem soluta debitis quidem?</p>
+                </article>
+            </section>
+
+            <!-- COMPARA MONEDAS -->
+            <section class="product-cards--container">
+                <article class="product-detail--card">
+                    <span class="moneda"></span>
+                    <p class="product--card-title">Compara monedas</p>
+                    <p class="product--card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                        nulla inventore libero doloremque quis rem soluta debitis quidem?
+                        consectetur adipisicing elit. Architecto
+                        nulla inventore libero doloremque quis rem soluta debitis quidem?
+                    </p>
+                </article>
+            </section>
+
+            <!-- INFORMACION CONFIABLE -->
+            <section class="product-cards--container">
+                <article class="product-detail--card">
+                    <span class="check"></span>
+                    <p class="product--card-title">Información confiable</p>
+                    <p class="product--card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                        nulla inventore libero doloremque quis rem soluta debitis quidem?</p>
+                </article>
+            </section>
+        </section>
+        
+        <!-- PLANES EN LAS CARDS -->
+        <section class="main-plans-container" id="plans">
+            <div class="plans--title">
+                <h2>Escoge el plan que mejor se ajuste a ti</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores vero voluptatibus animi. Provident deserunt, molestias alias labore id aut, aperiam praesentium a quae quos minima nostrum voluptatum delectus. Ipsum, quos?</p>
+            </div>
+            <section class="plans-container--slider">
+                <article class="plans-container-card">
+                    <p class="recomended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Anual</h3>
+                        <p class="plan-card--price"> <span>$</span>9</p>
+                        <p class="plan-card--saving">Ahorras $129 comparada al plan mensual</p>
+                        <button class="plan-card--ca">Escoger este <span> <span></button>
+                    </div>
+                </article>
+                <!-- Second Card -->
+                <article class="plans-container-card">
+                    <p class="recomended">Recomendado</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Anual</h3>
+                        <p class="plan-card--price"> <span>$</span>10</p>
+                        <p class="plan-card--saving">Ahorras $129 comparada al plan mensual</p>
+                        <button class="plan-card--ca">Escoger este <span> <span></button>
+                    </div>
+                </article>
+
+                <!-- Third Card -->
+                <article class="plans-container-card-v">
+                    <p class="recomended-v">Ideal</p>
+                    <div class="plan-info-container">
+                        <h3 class="plan-card-title">Pago Vitalicio</h3>
+                        <p class="plan-card--price"> <span>$</span>99</p>
+                        <p class="plan-card--saving">Ahorras $600 comparada al plan mensual</p>
+                        <button class="plan-card--ca">Escoger este <span> <span></button>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section>
+
+        </section>
     </main>
 
     <footer></footer>
-    
+
 </body>
+
 </html>
